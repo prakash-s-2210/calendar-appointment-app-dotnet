@@ -1,0 +1,2286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.7658" branch-rate="0.746" version="1.9" timestamp="1674755557" lines-covered="471" lines-valid="615" branches-covered="94" branches-valid="126">
+  <sources>
+    <source>D:\prakash.s\CreateList\CalendarEvents\</source>
+  </sources>
+  <packages>
+    <package name="CalendarEvents" line-rate="0.7658" branch-rate="0.746" complexity="187">
+      <classes>
+        <class name="Program" filename="Program.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+                <line number="7" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="26" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="101" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+            <line number="7" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="26" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="101" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Utils.ConfigureDependenciesExtension" filename="Utils\ConfigureDependenciesExtension.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ConfigureDependencyInjections" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Models.CalendarEvent" filename="Models\CalendarEvent.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_eventId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="231" branch="False" />
+              </lines>
+            </method>
+            <method name="get_title" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="64" branch="False" />
+              </lines>
+            </method>
+            <method name="get_addDescription" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="63" branch="False" />
+              </lines>
+            </method>
+            <method name="get_startTime" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="201" branch="False" />
+              </lines>
+            </method>
+            <method name="get_endTime" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="103" branch="False" />
+              </lines>
+            </method>
+            <method name="get_label" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="63" branch="False" />
+              </lines>
+            </method>
+            <method name="get_status" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="103" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="231" branch="False" />
+            <line number="8" hits="64" branch="False" />
+            <line number="9" hits="63" branch="False" />
+            <line number="10" hits="201" branch="False" />
+            <line number="11" hits="103" branch="False" />
+            <line number="12" hits="63" branch="False" />
+            <line number="13" hits="103" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Models.Login" filename="Models\Login.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_emailId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="get_password" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="11" branch="False" />
+            <line number="14" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Models.RegisteredUsers" filename="Models\RegisteredUsers.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_userId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="get_firstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name="get_lastName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name="get_emailId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="43" branch="False" />
+              </lines>
+            </method>
+            <method name="get_password" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="16" branch="False" />
+              </lines>
+            </method>
+            <method name="get_accessToken" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="15" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="9" branch="False" />
+            <line number="11" hits="15" branch="False" />
+            <line number="14" hits="15" branch="False" />
+            <line number="17" hits="43" branch="False" />
+            <line number="22" hits="16" branch="False" />
+            <line number="27" hits="15" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Models.RegisterUserRequest" filename="Models\RegisterUserRequest.cs" line-rate="0" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_firstName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_lastName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_emailId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_password" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_confirmPassword" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass0_0" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;CheckUserEventsExist&gt;b__0" signature="(System.Collections.Generic.KeyValuePair`2&lt;System.Guid,System.Collections.Generic.List`1&lt;System.Guid&gt;&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="14" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="14" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass1_0" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;GetCalendarEvents&gt;b__0" signature="(System.Collections.Generic.KeyValuePair`2&lt;System.Guid,System.Collections.Generic.List`1&lt;System.Guid&gt;&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass1_1" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;GetCalendarEvents&gt;b__1" signature="(CalendarEvents.Models.CalendarEvent)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="20" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="20" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass2_0" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;AddCalendarEvent&gt;b__0" signature="(System.Collections.Generic.KeyValuePair`2&lt;System.Guid,System.Collections.Generic.List`1&lt;System.Guid&gt;&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="14" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="51" hits="14" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass2_1" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;AddCalendarEvent&gt;b__1" signature="(CalendarEvents.Models.CalendarEvent)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="100" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="55" hits="100" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass3_0" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;CheckCalendarEventExist&gt;b__0" signature="(CalendarEvents.Models.CalendarEvent)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="79" hits="25" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;CheckCalendarEventExist&gt;b__1" signature="(System.Collections.Generic.KeyValuePair`2&lt;System.Guid,System.Collections.Generic.List`1&lt;System.Guid&gt;&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="80" hits="24" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="79" hits="25" branch="False" />
+            <line number="80" hits="24" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass4_0" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;UpdateCalendarEvent&gt;b__0" signature="(System.Collections.Generic.KeyValuePair`2&lt;System.Guid,System.Collections.Generic.List`1&lt;System.Guid&gt;&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="92" hits="21" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;UpdateCalendarEvent&gt;b__1" signature="(CalendarEvents.Models.CalendarEvent)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="109" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="92" hits="21" branch="False" />
+            <line number="109" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass4_1" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;UpdateCalendarEvent&gt;b__2" signature="(CalendarEvents.Models.CalendarEvent)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="96" hits="54" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="96" hits="54" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass5_0" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;CheckEventIdExist&gt;b__0" signature="(CalendarEvents.Models.CalendarEvent)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="116" hits="13" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="116" hits="13" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;&gt;c__DisplayClass6_0" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;DeleteCalendarEvent&gt;b__0" signature="(System.Collections.Generic.KeyValuePair`2&lt;System.Guid,System.Collections.Generic.List`1&lt;System.Guid&gt;&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="128" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;DeleteCalendarEvent&gt;b__1" signature="(CalendarEvents.Models.CalendarEvent)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="133" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="128" hits="8" branch="False" />
+            <line number="133" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;AddCalendarEvent&gt;d__2" filename="DataAccess\CalendarEventsDAL.cs" line-rate="0.909" branch-rate="0.9" complexity="20">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.909" branch-rate="0.9" complexity="20">
+              <lines>
+                <line number="50" hits="7" branch="False" />
+                <line number="52" hits="7" branch="False" />
+                <line number="53" hits="56" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="659" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="54" hits="26" branch="False" />
+                <line number="56" hits="26" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="197" type="jump" coverage="100%" />
+                    <condition number="242" type="jump" coverage="100%" />
+                    <condition number="270" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="57" hits="5" branch="False" />
+                <line number="58" hits="5" branch="True" condition-coverage="83.33% (10/12)">
+                  <conditions>
+                    <condition number="303" type="jump" coverage="100%" />
+                    <condition number="332" type="jump" coverage="100%" />
+                    <condition number="361" type="jump" coverage="100%" />
+                    <condition number="390" type="jump" coverage="100%" />
+                    <condition number="419" type="jump" coverage="50%" />
+                    <condition number="458" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="59" hits="5" branch="False" />
+                <line number="60" hits="5" branch="False" />
+                <line number="61" hits="5" branch="False" />
+                <line number="62" hits="5" branch="False" />
+                <line number="63" hits="5" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="42" branch="False" />
+                <line number="68" hits="21" branch="False" />
+                <line number="69" hits="2" branch="False" />
+                <line number="70" hits="2" branch="False" />
+                <line number="71" hits="2" branch="False" />
+                <line number="72" hits="2" branch="False" />
+                <line number="73" hits="2" branch="False" />
+                <line number="74" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="50" hits="7" branch="False" />
+            <line number="52" hits="7" branch="False" />
+            <line number="53" hits="56" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="659" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="54" hits="26" branch="False" />
+            <line number="56" hits="26" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="197" type="jump" coverage="100%" />
+                <condition number="242" type="jump" coverage="100%" />
+                <condition number="270" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="57" hits="5" branch="False" />
+            <line number="58" hits="5" branch="True" condition-coverage="83.33% (10/12)">
+              <conditions>
+                <condition number="303" type="jump" coverage="100%" />
+                <condition number="332" type="jump" coverage="100%" />
+                <condition number="361" type="jump" coverage="100%" />
+                <condition number="390" type="jump" coverage="100%" />
+                <condition number="419" type="jump" coverage="50%" />
+                <condition number="458" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="59" hits="5" branch="False" />
+            <line number="60" hits="5" branch="False" />
+            <line number="61" hits="5" branch="False" />
+            <line number="62" hits="5" branch="False" />
+            <line number="63" hits="5" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="42" branch="False" />
+            <line number="68" hits="21" branch="False" />
+            <line number="69" hits="2" branch="False" />
+            <line number="70" hits="2" branch="False" />
+            <line number="71" hits="2" branch="False" />
+            <line number="72" hits="2" branch="False" />
+            <line number="73" hits="2" branch="False" />
+            <line number="74" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;CheckCalendarEventExist&gt;d__3" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="78" hits="8" branch="False" />
+                <line number="81" hits="8" branch="False" />
+                <line number="82" hits="8" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="168" type="jump" coverage="50%" />
+                    <condition number="184" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="83" hits="7" branch="False" />
+                <line number="84" hits="7" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="89" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="78" hits="8" branch="False" />
+            <line number="81" hits="8" branch="False" />
+            <line number="82" hits="8" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="168" type="jump" coverage="50%" />
+                <condition number="184" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="83" hits="7" branch="False" />
+            <line number="84" hits="7" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="89" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;CheckEventIdExist&gt;d__5" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="115" hits="3" branch="False" />
+                <line number="117" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="101" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="118" hits="2" branch="False" />
+                <line number="119" hits="2" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="125" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="115" hits="3" branch="False" />
+            <line number="117" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="101" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="118" hits="2" branch="False" />
+            <line number="119" hits="2" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="125" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;CheckUserEventsExist&gt;d__0" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="120" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="22" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="120" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="22" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;DeleteCalendarEvent&gt;d__6" filename="DataAccess\CalendarEventsDAL.cs" line-rate="0.6428" branch-rate="0.625" complexity="8">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.6428" branch-rate="0.625" complexity="8">
+              <lines>
+                <line number="127" hits="2" branch="False" />
+                <line number="129" hits="2" branch="False" />
+                <line number="130" hits="4" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="449" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="172" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="134" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="253" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="135" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+                <line number="138" hits="0" branch="False" />
+                <line number="139" hits="0" branch="False" />
+                <line number="140" hits="0" branch="False" />
+                <line number="141" hits="0" branch="False" />
+                <line number="142" hits="0" branch="False" />
+                <line number="143" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="127" hits="2" branch="False" />
+            <line number="129" hits="2" branch="False" />
+            <line number="130" hits="4" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="449" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="172" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="134" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="253" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="135" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
+            <line number="138" hits="0" branch="False" />
+            <line number="139" hits="0" branch="False" />
+            <line number="140" hits="0" branch="False" />
+            <line number="141" hits="0" branch="False" />
+            <line number="142" hits="0" branch="False" />
+            <line number="143" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;GetCalendarEvents&gt;d__1" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
+              <lines>
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="12" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="324" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="5" branch="False" />
+                <line number="33" hits="9" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="198" type="jump" coverage="50%" />
+                    <condition number="226" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="4" branch="False" />
+                <line number="35" hits="4" branch="False" />
+                <line number="36" hits="2" branch="False" />
+                <line number="37" hits="5" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="12" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="324" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="31" hits="5" branch="False" />
+            <line number="33" hits="9" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="198" type="jump" coverage="50%" />
+                <condition number="226" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="34" hits="4" branch="False" />
+            <line number="35" hits="4" branch="False" />
+            <line number="36" hits="2" branch="False" />
+            <line number="37" hits="5" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.CalendarEventsDAL/&lt;UpdateCalendarEvent&gt;d__4" filename="DataAccess\CalendarEventsDAL.cs" line-rate="1" branch-rate="1" complexity="22">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="22">
+              <lines>
+                <line number="91" hits="7" branch="False" />
+                <line number="93" hits="7" branch="False" />
+                <line number="94" hits="36" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="788" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="95" hits="17" branch="False" />
+                <line number="97" hits="17" branch="True" condition-coverage="100% (8/8)">
+                  <conditions>
+                    <condition number="214" type="jump" coverage="100%" />
+                    <condition number="269" type="jump" coverage="100%" />
+                    <condition number="292" type="jump" coverage="100%" />
+                    <condition number="336" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="98" hits="7" branch="False" />
+                <line number="99" hits="7" branch="True" condition-coverage="100% (12/12)">
+                  <conditions>
+                    <condition number="379" type="jump" coverage="100%" />
+                    <condition number="418" type="jump" coverage="100%" />
+                    <condition number="460" type="jump" coverage="100%" />
+                    <condition number="499" type="jump" coverage="100%" />
+                    <condition number="538" type="jump" coverage="100%" />
+                    <condition number="587" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="100" hits="7" branch="False" />
+                <line number="101" hits="7" branch="False" />
+                <line number="102" hits="6" branch="False" />
+                <line number="103" hits="6" branch="False" />
+                <line number="105" hits="2" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="107" hits="20" branch="False" />
+                <line number="108" hits="11" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="91" hits="7" branch="False" />
+            <line number="93" hits="7" branch="False" />
+            <line number="94" hits="36" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="788" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="95" hits="17" branch="False" />
+            <line number="97" hits="17" branch="True" condition-coverage="100% (8/8)">
+              <conditions>
+                <condition number="214" type="jump" coverage="100%" />
+                <condition number="269" type="jump" coverage="100%" />
+                <condition number="292" type="jump" coverage="100%" />
+                <condition number="336" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="98" hits="7" branch="False" />
+            <line number="99" hits="7" branch="True" condition-coverage="100% (12/12)">
+              <conditions>
+                <condition number="379" type="jump" coverage="100%" />
+                <condition number="418" type="jump" coverage="100%" />
+                <condition number="460" type="jump" coverage="100%" />
+                <condition number="499" type="jump" coverage="100%" />
+                <condition number="538" type="jump" coverage="100%" />
+                <condition number="587" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="100" hits="7" branch="False" />
+            <line number="101" hits="7" branch="False" />
+            <line number="102" hits="6" branch="False" />
+            <line number="103" hits="6" branch="False" />
+            <line number="105" hits="2" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="107" hits="20" branch="False" />
+            <line number="108" hits="11" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.UserDAL" filename="DataAccess\UserDAL.cs" line-rate="0.4047" branch-rate="0.3333" complexity="13">
+          <methods>
+            <method name="RegisterUser" signature="(CalendarEvents.Models.RegisteredUsers)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="12" branch="False" />
+                <line number="30" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="40" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="verifyLoginInformation" signature="(CalendarEvents.Models.Login)" line-rate="0.2" branch-rate="0.3333" complexity="6">
+              <lines>
+                <line number="43" hits="2" branch="False" />
+                <line number="44" hits="9" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="73" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="192" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="checkTokenIsValid" signature="(System.Guid,System.String)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="68" type="jump" coverage="0%" />
+                    <condition number="79" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="7" branch="False" />
+                <line number="12" hits="7" branch="False" />
+                <line number="13" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="12" branch="False" />
+            <line number="30" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="43" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="40" hits="2" branch="False" />
+            <line number="43" hits="2" branch="False" />
+            <line number="44" hits="9" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="73" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="192" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="68" type="jump" coverage="0%" />
+                <condition number="79" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="10" hits="7" branch="False" />
+            <line number="12" hits="7" branch="False" />
+            <line number="13" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.UserDAL/&lt;GetEventsInformation&gt;d__4" filename="DataAccess\UserDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.UserDAL/&lt;GetUsersEventsInformation&gt;d__5" filename="DataAccess\UserDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.DataAccess.UserDAL/&lt;GetUsersInformation&gt;d__3" filename="DataAccess\UserDAL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.CalendarEventsController" filename="Controllers\CalendarEventsController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(CalendarEvents.Business.ICalendarEventsBL)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="29" branch="False" />
+                <line number="20" hits="29" branch="False" />
+                <line number="21" hits="29" branch="False" />
+                <line number="22" hits="29" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="29" branch="False" />
+            <line number="20" hits="29" branch="False" />
+            <line number="21" hits="29" branch="False" />
+            <line number="22" hits="29" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.CalendarEventsController/&lt;AddCalendarEvent&gt;d__3" filename="Controllers\CalendarEventsController.cs" line-rate="0.7391" branch-rate="0.75" complexity="8">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.7391" branch-rate="0.75" complexity="8">
+              <lines>
+                <line number="83" hits="11" branch="False" />
+                <line number="84" hits="11" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="34" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="85" hits="11" branch="False" />
+                <line number="87" hits="11" branch="False" />
+                <line number="88" hits="11" branch="False" />
+                <line number="89" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="200" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="90" hits="7" branch="False" />
+                <line number="91" hits="7" branch="False" />
+                <line number="93" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="355" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="94" hits="2" branch="False" />
+                <line number="95" hits="2" branch="False" />
+                <line number="97" hits="5" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="407" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="98" hits="5" branch="False" />
+                <line number="99" hits="5" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="107" hits="4" branch="False" />
+                <line number="108" hits="4" branch="False" />
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="113" hits="0" branch="False" />
+                <line number="116" hits="0" branch="False" />
+                <line number="117" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="83" hits="11" branch="False" />
+            <line number="84" hits="11" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="34" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="85" hits="11" branch="False" />
+            <line number="87" hits="11" branch="False" />
+            <line number="88" hits="11" branch="False" />
+            <line number="89" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="200" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="90" hits="7" branch="False" />
+            <line number="91" hits="7" branch="False" />
+            <line number="93" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="355" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="94" hits="2" branch="False" />
+            <line number="95" hits="2" branch="False" />
+            <line number="97" hits="5" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="407" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="98" hits="5" branch="False" />
+            <line number="99" hits="5" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="107" hits="4" branch="False" />
+            <line number="108" hits="4" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="117" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.CalendarEventsController/&lt;DeleteCalendarEvent&gt;d__5" filename="Controllers\CalendarEventsController.cs" line-rate="0.8823000000000001" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8823000000000001" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="168" hits="3" branch="False" />
+                <line number="170" hits="3" branch="False" />
+                <line number="171" hits="3" branch="False" />
+                <line number="172" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="175" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="173" hits="2" branch="False" />
+                <line number="174" hits="2" branch="False" />
+                <line number="175" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="329" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="176" hits="1" branch="False" />
+                <line number="177" hits="1" branch="False" />
+                <line number="180" hits="0" branch="False" />
+                <line number="181" hits="0" branch="False" />
+                <line number="185" hits="1" branch="False" />
+                <line number="186" hits="1" branch="False" />
+                <line number="189" hits="1" branch="False" />
+                <line number="190" hits="1" branch="False" />
+                <line number="191" hits="1" branch="False" />
+                <line number="193" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="168" hits="3" branch="False" />
+            <line number="170" hits="3" branch="False" />
+            <line number="171" hits="3" branch="False" />
+            <line number="172" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="175" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="173" hits="2" branch="False" />
+            <line number="174" hits="2" branch="False" />
+            <line number="175" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="329" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="176" hits="1" branch="False" />
+            <line number="177" hits="1" branch="False" />
+            <line number="180" hits="0" branch="False" />
+            <line number="181" hits="0" branch="False" />
+            <line number="185" hits="1" branch="False" />
+            <line number="186" hits="1" branch="False" />
+            <line number="189" hits="1" branch="False" />
+            <line number="190" hits="1" branch="False" />
+            <line number="191" hits="1" branch="False" />
+            <line number="193" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.CalendarEventsController/&lt;GetCalendarEvents&gt;d__2" filename="Controllers\CalendarEventsController.cs" line-rate="0.875" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.875" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="32" hits="3" branch="False" />
+                <line number="34" hits="3" branch="False" />
+                <line number="35" hits="3" branch="False" />
+                <line number="36" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="175" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="338" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="55" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="3" branch="False" />
+            <line number="34" hits="3" branch="False" />
+            <line number="35" hits="3" branch="False" />
+            <line number="36" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="175" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="338" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="55" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.CalendarEventsController/&lt;UpdateCalendarEvent&gt;d__4" filename="Controllers\CalendarEventsController.cs" line-rate="0.8076000000000001" branch-rate="0.875" complexity="8">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8076000000000001" branch-rate="0.875" complexity="8">
+              <lines>
+                <line number="123" hits="12" branch="False" />
+                <line number="124" hits="12" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="34" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="125" hits="12" branch="False" />
+                <line number="127" hits="12" branch="False" />
+                <line number="128" hits="12" branch="False" />
+                <line number="129" hits="12" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="214" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="130" hits="8" branch="False" />
+                <line number="131" hits="8" branch="False" />
+                <line number="132" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="369" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="133" hits="7" branch="False" />
+                <line number="134" hits="7" branch="False" />
+                <line number="135" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="527" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="136" hits="6" branch="False" />
+                <line number="137" hits="6" branch="False" />
+                <line number="140" hits="1" branch="False" />
+                <line number="141" hits="1" branch="False" />
+                <line number="145" hits="1" branch="False" />
+                <line number="146" hits="1" branch="False" />
+                <line number="150" hits="4" branch="False" />
+                <line number="151" hits="4" branch="False" />
+                <line number="154" hits="0" branch="False" />
+                <line number="155" hits="0" branch="False" />
+                <line number="156" hits="0" branch="False" />
+                <line number="160" hits="0" branch="False" />
+                <line number="161" hits="0" branch="False" />
+                <line number="163" hits="12" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="123" hits="12" branch="False" />
+            <line number="124" hits="12" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="34" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="125" hits="12" branch="False" />
+            <line number="127" hits="12" branch="False" />
+            <line number="128" hits="12" branch="False" />
+            <line number="129" hits="12" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="214" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="130" hits="8" branch="False" />
+            <line number="131" hits="8" branch="False" />
+            <line number="132" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="369" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="133" hits="7" branch="False" />
+            <line number="134" hits="7" branch="False" />
+            <line number="135" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="527" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="136" hits="6" branch="False" />
+            <line number="137" hits="6" branch="False" />
+            <line number="140" hits="1" branch="False" />
+            <line number="141" hits="1" branch="False" />
+            <line number="145" hits="1" branch="False" />
+            <line number="146" hits="1" branch="False" />
+            <line number="150" hits="4" branch="False" />
+            <line number="151" hits="4" branch="False" />
+            <line number="154" hits="0" branch="False" />
+            <line number="155" hits="0" branch="False" />
+            <line number="156" hits="0" branch="False" />
+            <line number="160" hits="0" branch="False" />
+            <line number="161" hits="0" branch="False" />
+            <line number="163" hits="12" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.UserController" filename="Controllers\UserController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(CalendarEvents.Business.IUserBL)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="7" branch="False" />
+                <line number="16" hits="7" branch="False" />
+                <line number="17" hits="7" branch="False" />
+                <line number="18" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="7" branch="False" />
+            <line number="16" hits="7" branch="False" />
+            <line number="17" hits="7" branch="False" />
+            <line number="18" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.UserController/&lt;GetEventsInformation&gt;d__3" filename="Controllers\UserController.cs" line-rate="0.6363" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.6363" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="46" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="169" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="61" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="46" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="169" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="61" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.UserController/&lt;GetUsersEventsInformation&gt;d__4" filename="Controllers\UserController.cs" line-rate="0.6363" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.6363" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="69" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="169" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="83" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="69" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="169" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="83" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.UserController/&lt;GetUsersInformation&gt;d__2" filename="Controllers\UserController.cs" line-rate="0.6363" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.6363" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="24" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="169" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="39" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="169" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="39" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.UserController/&lt;Login&gt;d__6" filename="Controllers\UserController.cs" line-rate="0.44439999999999996" branch-rate="0.5" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.44439999999999996" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="118" hits="2" branch="False" />
+                <line number="119" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="120" hits="2" branch="False" />
+                <line number="122" hits="2" branch="False" />
+                <line number="123" hits="2" branch="False" />
+                <line number="125" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="205" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="126" hits="0" branch="False" />
+                <line number="127" hits="0" branch="False" />
+                <line number="128" hits="0" branch="False" />
+                <line number="129" hits="0" branch="False" />
+                <line number="130" hits="0" branch="False" />
+                <line number="131" hits="0" branch="False" />
+                <line number="132" hits="0" branch="False" />
+                <line number="133" hits="0" branch="False" />
+                <line number="134" hits="0" branch="False" />
+                <line number="135" hits="0" branch="False" />
+                <line number="136" hits="0" branch="False" />
+                <line number="137" hits="0" branch="False" />
+                <line number="138" hits="0" branch="False" />
+                <line number="141" hits="1" branch="False" />
+                <line number="142" hits="1" branch="False" />
+                <line number="145" hits="1" branch="False" />
+                <line number="146" hits="1" branch="False" />
+                <line number="147" hits="1" branch="False" />
+                <line number="151" hits="0" branch="False" />
+                <line number="152" hits="0" branch="False" />
+                <line number="154" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="118" hits="2" branch="False" />
+            <line number="119" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="33" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="120" hits="2" branch="False" />
+            <line number="122" hits="2" branch="False" />
+            <line number="123" hits="2" branch="False" />
+            <line number="125" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="205" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="126" hits="0" branch="False" />
+            <line number="127" hits="0" branch="False" />
+            <line number="128" hits="0" branch="False" />
+            <line number="129" hits="0" branch="False" />
+            <line number="130" hits="0" branch="False" />
+            <line number="131" hits="0" branch="False" />
+            <line number="132" hits="0" branch="False" />
+            <line number="133" hits="0" branch="False" />
+            <line number="134" hits="0" branch="False" />
+            <line number="135" hits="0" branch="False" />
+            <line number="136" hits="0" branch="False" />
+            <line number="137" hits="0" branch="False" />
+            <line number="138" hits="0" branch="False" />
+            <line number="141" hits="1" branch="False" />
+            <line number="142" hits="1" branch="False" />
+            <line number="145" hits="1" branch="False" />
+            <line number="146" hits="1" branch="False" />
+            <line number="147" hits="1" branch="False" />
+            <line number="151" hits="0" branch="False" />
+            <line number="152" hits="0" branch="False" />
+            <line number="154" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Controllers.UserController/&lt;RegisterUser&gt;d__5" filename="Controllers\UserController.cs" line-rate="0.7333" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.7333" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="91" hits="2" branch="False" />
+                <line number="92" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="93" hits="2" branch="False" />
+                <line number="95" hits="2" branch="False" />
+                <line number="96" hits="2" branch="False" />
+                <line number="97" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="188" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="91" hits="2" branch="False" />
+            <line number="92" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="33" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="93" hits="2" branch="False" />
+            <line number="95" hits="2" branch="False" />
+            <line number="96" hits="2" branch="False" />
+            <line number="97" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="188" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.CalendarAppointmentApp.Events" filename="CalendarAppointmentApp\Events.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.CalendarAppointmentApp.Users" filename="CalendarAppointmentApp\Users.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+                <line number="7" hits="1" branch="False" />
+                <line number="8" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="1" branch="False" />
+            <line number="7" hits="1" branch="False" />
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.CalendarAppointmentApp.RegisterUserResponse" filename="CalendarAppointmentApp\Users.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_IsSuccess" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.CalendarAppointmentApp.UsersEventsId" filename="CalendarAppointmentApp\UsersEventsId.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="7" branch="False" />
+                <line number="7" hits="7" branch="False" />
+                <line number="10" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="7" branch="False" />
+            <line number="7" hits="7" branch="False" />
+            <line number="10" hits="7" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.CalendarEventsBL" filename="Business\CalendarEventsBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(CalendarEvents.DataAccess.ICalendarEventsDAL)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="29" branch="False" />
+                <line number="10" hits="29" branch="False" />
+                <line number="11" hits="29" branch="False" />
+                <line number="12" hits="29" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="29" branch="False" />
+            <line number="10" hits="29" branch="False" />
+            <line number="11" hits="29" branch="False" />
+            <line number="12" hits="29" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.CalendarEventsBL/&lt;AddCalendarEvent&gt;d__5" filename="Business\CalendarEventsBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="7" branch="False" />
+                <line number="39" hits="7" branch="False" />
+                <line number="40" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="7" branch="False" />
+            <line number="39" hits="7" branch="False" />
+            <line number="40" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.CalendarEventsBL/&lt;CheckCalendarEventExist&gt;d__6" filename="Business\CalendarEventsBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="8" branch="False" />
+                <line number="44" hits="8" branch="False" />
+                <line number="45" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="43" hits="8" branch="False" />
+            <line number="44" hits="8" branch="False" />
+            <line number="45" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.CalendarEventsBL/&lt;CheckCalendarEventFormat&gt;d__4" filename="Business\CalendarEventsBL.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="26" hits="23" branch="False" />
+                <line number="27" hits="23" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="56" type="jump" coverage="100%" />
+                    <condition number="101" type="jump" coverage="100%" />
+                    <condition number="129" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="15" branch="False" />
+                <line number="29" hits="15" branch="False" />
+                <line number="32" hits="8" branch="False" />
+                <line number="33" hits="8" branch="False" />
+                <line number="35" hits="23" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="23" branch="False" />
+            <line number="27" hits="23" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="56" type="jump" coverage="100%" />
+                <condition number="101" type="jump" coverage="100%" />
+                <condition number="129" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="15" branch="False" />
+            <line number="29" hits="15" branch="False" />
+            <line number="32" hits="8" branch="False" />
+            <line number="33" hits="8" branch="False" />
+            <line number="35" hits="23" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.CalendarEventsBL/&lt;CheckEventIdExist&gt;d__8" filename="Business\CalendarEventsBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="3" branch="False" />
+                <line number="54" hits="3" branch="False" />
+                <line number="55" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="53" hits="3" branch="False" />
+            <line number="54" hits="3" branch="False" />
+            <line number="55" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.CalendarEventsBL/&lt;DeleteCalendarEvent&gt;d__9" filename="Business\CalendarEventsBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="2" branch="False" />
+                <line number="58" hits="2" branch="False" />
+                <line number="59" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="57" hits="2" branch="False" />
+            <line number="58" hits="2" branch="False" />
+            <line number="59" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.CalendarEventsBL/&lt;GetCalendarEvents&gt;d__3" filename="Business\CalendarEventsBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.CalendarEventsBL/&lt;UpdateCalendarEvent&gt;d__7" filename="Business\CalendarEventsBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="7" branch="False" />
+                <line number="48" hits="7" branch="False" />
+                <line number="49" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="47" hits="7" branch="False" />
+            <line number="48" hits="7" branch="False" />
+            <line number="49" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.CalendarEventsBL/&lt;checkUserEventsExist&gt;d__2" filename="Business\CalendarEventsBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="False" />
+                <line number="16" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="16" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.UserBL" filename="Business\UserBL.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="RegisterUser" signature="(CalendarEvents.Models.RegisteredUsers)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="2" branch="False" />
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="verifyLoginInformation" signature="(CalendarEvents.Models.Login)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(CalendarEvents.DataAccess.IUserDAL)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="7" branch="False" />
+                <line number="9" hits="7" branch="False" />
+                <line number="10" hits="7" branch="False" />
+                <line number="11" hits="7" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="2" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="8" hits="7" branch="False" />
+            <line number="9" hits="7" branch="False" />
+            <line number="10" hits="7" branch="False" />
+            <line number="11" hits="7" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.UserBL/&lt;GetEventsInformation&gt;d__3" filename="Business\UserBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.UserBL/&lt;GetUsersEventsInformation&gt;d__4" filename="Business\UserBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Business.UserBL/&lt;GetUsersInformation&gt;d__2" filename="Business\UserBL.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CalendarEvents.Attributes.CustomAuth" filename="Attributes\CustomAuth.cs" line-rate="0" branch-rate="0" complexity="5">
+          <methods>
+            <method name="OnActionExecuting" signature="(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="34" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="122" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(CalendarEvents.DataAccess.IUserDAL)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="34" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="122" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
