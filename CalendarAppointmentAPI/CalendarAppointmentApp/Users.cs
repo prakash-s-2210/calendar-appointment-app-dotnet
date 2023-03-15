@@ -9,40 +9,40 @@ namespace CalendarEvents.CalendarAppointmentApp
                 userId = new Guid("e0f38a81-a922-4996-ae40-e894762fd838"),
                 firstName = "Prakash",
                 lastName =  "S", 
-                emailId = "prakash.s@disprz.com",
-                password = "PrakashDisprz@123",
+                emailId = "prakash.s@gmail.com",
+                password = "Prakash@123",
                 accessToken = ""
             },
             new RegisteredUsers(){
                 userId = new Guid("7b613837-cdb1-42f6-80c8-382b0844bf59"),
                 firstName = "Santhosh",
                 lastName =  "T", 
-                emailId = "santhosh.t@disprz.com",
-                password = "SanthoshDisprz@123",
+                emailId = "santhosh.t@gmail.com",
+                password = "Santhosh@123",
                 accessToken = ""
             },
             new RegisteredUsers(){
                 userId = new Guid("d2810ec0-ee64-4d69-b8b1-702e8b3ee591"),
                 firstName = "Makesh",
                 lastName =  "R", 
-                emailId = "makesh.r@disprz.com",
-                password = "MakeshDisprz@123",
+                emailId = "makesh.r@gmail.com",
+                password = "Makesh@123",
                 accessToken = ""
             },
             new RegisteredUsers(){
                 userId = new Guid("1626c368-e3ea-464f-be8c-2430a6116515"),
                 firstName = "Jeyasurya",
                 lastName =  "R", 
-                emailId = "jeyasurya.r@disprz.com",
-                password = "JeyasuryaDisprz@123",
+                emailId = "jeyasurya.r@gmail.com",
+                password = "Jeyasurya@123",
                 accessToken = ""
             },
             new RegisteredUsers(){
                 userId = new Guid("6d354fb0-d6e4-4f0a-9d62-39ebd7fad1b7"),
                 firstName = "Sandy",
                 lastName =  "S", 
-                emailId = "sandy.s@disprz.com",
-                password = "SandyDisprz@123",
+                emailId = "sandy.s@gmail.com",
+                password = "Sandy@123",
                 accessToken = ""
             }
         };  

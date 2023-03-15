@@ -8762,19 +8762,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\prakash.s_disprz\\.nuget\\packages\\": {}
+    "C:\\Users\\sbpra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\prakash.s\\CalendarAppointmentAppDotnet\\CalendarEvents\\CalendarEvents.csproj",
+      "projectUniqueName": "C:\\Prakash\\calendar-appointment-app-dotnet\\CalendarAppointmentAPI\\CalendarEvents.csproj",
       "projectName": "CalendarEvents",
-      "projectPath": "d:\\prakash.s\\CalendarAppointmentAppDotnet\\CalendarEvents\\CalendarEvents.csproj",
-      "packagesPath": "C:\\Users\\prakash.s_disprz\\.nuget\\packages\\",
-      "outputPath": "d:\\prakash.s\\CalendarAppointmentAppDotnet\\CalendarEvents\\obj\\",
+      "projectPath": "C:\\Prakash\\calendar-appointment-app-dotnet\\CalendarAppointmentAPI\\CalendarEvents.csproj",
+      "packagesPath": "C:\\Users\\sbpra\\.nuget\\packages\\",
+      "outputPath": "C:\\Prakash\\calendar-appointment-app-dotnet\\CalendarAppointmentAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\prakash.s_disprz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\sbpra\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -8842,7 +8842,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
